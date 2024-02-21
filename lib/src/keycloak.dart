@@ -205,6 +205,7 @@ abstract class KeycloakInitOptions {
       num checkLoginIframeInterval,
       String /*'query'|'fragment'*/ responseMode,
       String redirectUri,
+      String /*'none'|'login'*/ prompt,
       String silentCheckSsoRedirectUri,
       bool silentCheckSsoFallback,
       String /*'standard'|'implicit'|'hybrid'*/ flow,
