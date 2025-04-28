@@ -14,6 +14,7 @@ dependencies:
   flutter:
     sdk: flutter
   js: ^0.6.7
+  keycloak_flutter: ^0.0.21
 
 dev_dependencies:
   flutter_test:
