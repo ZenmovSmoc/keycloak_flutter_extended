@@ -2,7 +2,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:keycloak_flutter/keycloak_flutter.dart';
+import 'package:keycloak_flutter_extended/keycloak_flutter.dart';
 
 late KeycloakService keycloakService;
 

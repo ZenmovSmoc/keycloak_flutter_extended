@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:js/js_util.dart';
-import 'package:keycloak_flutter/src/keycloak.dart';
+import 'package:keycloak_flutter_extended/src/keycloak.dart';
 
 /// @author Gibah Joseph
 /// email: gibahjoe@gmail.com
