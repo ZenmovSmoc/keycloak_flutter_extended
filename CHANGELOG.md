@@ -1,3 +1,7 @@
+## [0.0.22]
+
+- Added getIdToken method
+
 ## [0.0.21]
 
 - Added support for keycloak 20+
