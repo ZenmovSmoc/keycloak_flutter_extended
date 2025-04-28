@@ -1,8 +1,10 @@
-name: keycloak_flutter
-description: Keycloak client adapter for flutter based on the keycloak-js implementation.
-version: 0.0.21
-homepage: https://github.com/gibahjoe/keycloak_flutter
-
+name: keycloak_flutter_extended
+description: A Flutter package that extends the Keycloak client functionality by adding 
+  support for obtaining the ID Token from Keycloak. This package is based on the 
+  original `keycloak_flutter` package but includes additional methods to simplify 
+  the process of retrieving and handling Keycloak ID tokens in your Flutter application.
+version: 0.0.1
+homepage: https://github.com/ZenmovSmoc/keycloak_flutter_extended
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
