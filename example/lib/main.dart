@@ -117,7 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               'Welcome ${_keycloakProfile?.username ?? 'Guest'}',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.displayMedium,
             ),
             SizedBox(
               height: 20,
@@ -127,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: _login,
                 child: Text(
                   'Login',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.displayMedium,
                 ),
               ),
             SizedBox(
@@ -142,10 +142,15 @@ class _MyHomePageState extends State<MyHomePage> {
                   }).catchError((onError) {
                     print(onError);
                   });
+                  await keycloakService.updateToken(1000).then((value) {
+                    print(value);
+                  }).catchError((onError) {
+                    print(onError);
+                  });
                 },
                 child: Text(
                   'Refresh token',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.displayMedium,
                 ),
               ),
           ],
